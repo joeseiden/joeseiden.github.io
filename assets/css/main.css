@@ -2096,7 +2096,7 @@
 			-webkit-transition: opacity 0.25s ease-in-out;
 			-ms-transition: opacity 0.25s ease-in-out;
 			transition: opacity 0.25s ease-in-out;
-			background-image: url("images/overlay.png");
+			/*background-image: url("images/overlay.png");*/
 			content: '';
 			display: block;
 			height: 100%;
@@ -2110,6 +2110,15 @@
 		.image img {
 			display: block;
 		}
+
+		.image.contain {
+			display: block;
+		}
+			.image.contain img {
+				display: block;
+				width: 100%;
+				object-fit: contain;
+			}
 
 		.image.fit {
 			display: block;
@@ -2434,7 +2443,7 @@
 		.feature .image {
 			display: inline-block;
 			height: 100%;
-			overflow: hidden;
+			/*overflow: hidden;*/
 			position: relative;
 			width: 50%;
 		}
@@ -2444,6 +2453,8 @@
 				min-height: 100%;
 				min-width: 100%;
 				position: absolute;
+				object-fit: fill;
+				width: 500px;
 			}
 
 		.feature:before {

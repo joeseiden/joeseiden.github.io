@@ -360,6 +360,15 @@
 			display: block;
 		}
 
+		&.contain {
+			display: block;
+			img {
+				display: block;
+				width: 100%;
+				object-fit: contain;
+			}
+		}
+
 		&.fit {
 			display: block;
 
