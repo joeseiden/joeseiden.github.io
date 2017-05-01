@@ -277,7 +277,9 @@
 	}
 
 	.row.\30 \25 {
-		margin: 0px 0 -1px 0px;
+		margin: 0px 0 40px 0px;
+		display: flex;
+		justify-content: space-between;
 	}
 
 	.row.uniform.\30 \25 > * {
@@ -423,9 +425,10 @@
 	}
 
 	.\33 u, .\33 u\24 {
-		width: 25%;
+		/*width: 25%;*/
 		clear: none;
-		margin-left: 0;
+		/*margin-left: 0;*/
+		margin: 1px;
 	}
 
 	.\32 u, .\32 u\24 {
